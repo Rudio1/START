@@ -23,6 +23,7 @@ public class App {
         var parser = new JsonParse();
         List<Map<String, String>> listFilmes = parser.parse(body);
 
+
         for (Map<String,String> filme : listFilmes) {
             System.out.println(filme.get("title"));
             System.out.println(filme.get("image"));
