@@ -19,16 +19,15 @@ public class App {
         HttpResponse<String> response = newHttpClient.send(request, BodyHandlers.ofString());
         String body = response.body();
 
-        // System.out.println(body);
         var parser = new JsonParse();
         List<Map<String, String>> listFilmes = parser.parse(body);
+       
 
 
         for (Map<String,String> filme : listFilmes) {
             System.out.println(filme.get("title"));
             System.out.println(filme.get("image"));
             System.out.println(filme.get("imDbRating"));
-            // System.out.println(filme.get());
         }
     }
 }
