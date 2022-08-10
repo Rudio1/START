@@ -1,1 +1,2 @@
-Construção de uma aplicação para consumir a API do IMDB e exibir os filmes mais populares, destacando assim os seus posteres e visualizando as classificações
+Construção de uma aplicação para consumir a API do IMDB e exibir os filmes mais populares, destacando assim os seus posteres e visualizando as classificações...
+Guilherme Rudio
