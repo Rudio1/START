@@ -11,7 +11,7 @@ public class ViaCep {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
 
-        try {
+
             System.out.println("Informe o cep:");
             String Infocep = sc.nextLine();
             String url = "https://viacep.com.br/ws/" + Infocep + "/json";
@@ -23,24 +23,25 @@ public class ViaCep {
 
             HttpResponse<String> response = newHttpClient.send(request, BodyHandlers.ofString());
             String body = response.body();
-
+            
+            
+            
             List<String> list = new ArrayList<>();
             list.add(body);
             
+            if(response.statusCode() == 400) {
+                System.out.println("O cep informado não existe");
+            }
+            else {
+                for (String info: list) {
+                    System.out.println(info);
 
-            System.out.println(response);
-
-            for (String info: list) {
-                System.out.println(info);
+                }
 
             }
 
 
-        } catch (Exception e1) {
-            e1.printStackTrace();
-            System.out.println("...");
-        }
         
-        sc.close();
+
     }
 }
