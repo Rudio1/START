@@ -19,6 +19,8 @@ public class App {
         HttpResponse<String> response = newHttpClient.send(request, BodyHandlers.ofString());
         String body = response.body();
 
+        // System.out.println(response.request());
+
         var parser = new JsonParse();
         List<Map<String, String>> listFilmes = parser.parse(body);
        
