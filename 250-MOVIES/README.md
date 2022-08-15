@@ -1,6 +1,12 @@
 **Primeira aplicação**
 
-Construção de uma aplicação para consumir a API do IMDB e exibir os filmes mais populares, destacando assim os seus posteres e visualizando as classificações.
+Construção de uma aplicação para consumir a API do IMDB e exibir os filmes mais populares, destacando assim os seus posteres e visualizando as classificações. 
+
+Saída: 
+
+![image](https://user-images.githubusercontent.com/90154109/184641417-968c62d8-41b7-40ac-95dd-bb37fc936192.png)
+
+-.
 
 **Segunda aplicação**
 
