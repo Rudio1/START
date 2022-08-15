@@ -19,5 +19,10 @@ Construção de um gerador de figurinhas
 - [x] Alterar a fonte de saída
 - [x] Tratar o formato da imagem
 
+Saída: 
+
+![image](https://user-images.githubusercontent.com/90154109/184641663-26ba5129-1d12-4658-aee9-501a1f046d93.png)
+
+
 # Linguagem
 ![logo-java](https://user-images.githubusercontent.com/90154109/184634842-da9d5699-4937-4ec8-bbb5-9c808b099f2f.png)
