@@ -1,3 +1,4 @@
+
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -25,11 +26,12 @@ public class App {
         List<Map<String, String>> listFilmes = parser.parse(body);
        
 
-
         for (Map<String,String> filme : listFilmes) {
+
             System.out.println(filme.get("title"));
             System.out.println(filme.get("image"));
-            System.out.println(filme.get("imDbRating"));
+            System.out.println("Avaliação: " + filme.get("imDbRating"));
+            System.out.println();
         }
     }
 }
