@@ -10,7 +10,8 @@ Construção de um gerador de figurinhas
 - [x] Tratar o formato da imagem
 
 #Linguagem
-![image]()
+![image](https://user-images.githubusercontent.com/90154109/184634609-cd0b4736-6641-4c64-98b1-d7025802db09.png)
+
 
 
 ![image](https://user-images.githubusercontent.com/90154109/143505019-ebdad54f-bb14-49cf-870a-aa4dea1837a7.png)
